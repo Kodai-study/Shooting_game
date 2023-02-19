@@ -44,7 +44,7 @@ namespace {
 	int oneBlockSize_y;
 	col_1 newCol = col_1(YOKO_SIZE);
 	std::random_device random;
-	int fieldPattern[KIND_SIZE] = {0};
+	int fieldPattern[KIND_SIZE] = { 0 };
 }
 
 void init(void);
